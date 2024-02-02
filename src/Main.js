@@ -7,7 +7,7 @@ const Main = () => {
       <header className="w-full bg-white shadow-md py-4 px-6">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-2xl font-bold tracking-tighter text-gray-900">
-            landthatjob.tech
+            landthatjob.<span className="text-[#2A88D0]">tech</span>
           </h1>
           <a
             className="hidden md:inline-flex h-10  items-center justify-center rounded-md bg-gradient-to-r from-[#2A88D0] to-[#689cc3] px-2 md:px-8 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 :bg-gray-50 :text-gray-900 :hover:bg-gray-50/90 :focus-visible:ring-gray-300"
@@ -31,7 +31,7 @@ const Main = () => {
                   AI-powered career tools
                 </h1>
                 <p className="max-w-[600px] text-gray-600 text-justify md:text-xl :text-gray-400">
-                  The only AI toolkit you need to land that dream job. Create resumes,
+                  The only AI toolkit you need to land that dream job. Create professional summary for your resume,
                   cover letters, get resume scores, and grow your
                   professional network.
                 </p>
@@ -66,26 +66,26 @@ const Main = () => {
           </div>
           <div className="mx-auto grid items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-4">
             <div className="grid gap-1">
-              <h3 className="text-lg font-bold">Resume Generator</h3>
-              <p className="text-sm text-gray-500 :text-gray-400">
-                Create professional resumes tailored to your career goals.
+              <h3 className="text-lg font-bold">Summary Generator</h3>
+              <p className="text-sm text-gray-500 :text-gray-400  text-justify">
+                Create professional summary for your resume tailored to a job description.
               </p>
             </div>
             <div className="grid gap-1">
               <h3 className="text-lg font-bold">Cover Letter Generator</h3>
-              <p className="text-sm text-gray-500 :text-gray-400">
+              <p className="text-sm text-gray-500 text-justify :text-gray-400">
                 Craft compelling cover letters that stand out.
               </p>
             </div>
             <div className="grid gap-1">
               <h3 className="text-lg font-bold">Resume Score</h3>
-              <p className="text-sm text-gray-500 :text-gray-400">
+              <p className="text-sm text-gray-500 text-justify :text-gray-400">
                 Get instant feedback on your resume and improve it.
               </p>
             </div>
             <div className="grid gap-1">
               <h3 className="text-lg font-bold">And more features</h3>
-              <p className="text-sm text-gray-500 :text-gray-400">
+              <p className="text-sm text-justify text-gray-500 :text-gray-400">
                 Ample new features upcoming.
               </p>
             </div>
@@ -99,10 +99,10 @@ const Main = () => {
             <p className="text-sm">© 2024 landthatjob. All rights reserved.</p>
           </div>
           <div className="flex space-x-4">
-            <a className="text-sm hover:underline" href="#">
+            {/* <a className="text-sm hover:underline" href="#">
               About Us
-            </a>
-            <a className="text-sm hover:underline" href="#">
+            </a> */}
+            <a className="text-sm hover:underline" href="mailto:landthatjob.tech@gmail.com">
               Contact Us
             </a>
             <a className="text-sm hover:underline" href="#">
