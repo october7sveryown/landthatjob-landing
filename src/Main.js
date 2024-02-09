@@ -11,7 +11,7 @@ const Main = () => {
           </h1>
           <a
             className="hidden md:inline-flex h-10  items-center justify-center rounded-md bg-gradient-to-r from-[#2A88D0] to-[#689cc3] px-2 md:px-8 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 :bg-gray-50 :text-gray-900 :hover:bg-gray-50/90 :focus-visible:ring-gray-300"
-            href="https://5pt3xyrc1kx.typeform.com/to/a6DtWH9L"
+            href="https://forms.gle/NMUMqR4sC5o8TzF87"
           >
             Join the waitlist
           </a>
@@ -39,7 +39,7 @@ const Main = () => {
               <div className="w-full max-w-sm space-y-2">
                 <a
                   className="inline-flex h-10 items-center justify-center rounded-md bg-gradient-to-r from-[#2A88D0] to-[#689cc3] px-8 text-sm font-medium text-white shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 :bg-gray-50 :text-gray-900 :hover:bg-gray-50/90 :focus-visible:ring-gray-300"
-                  href="https://5pt3xyrc1kx.typeform.com/to/a6DtWH9L"
+                  href="https://forms.gle/NMUMqR4sC5o8TzF87"
                 >
                   Join the waitlist
                 </a>
