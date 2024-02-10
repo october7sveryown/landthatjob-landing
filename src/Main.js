@@ -105,7 +105,7 @@ const Main = () => {
             <a className="text-sm hover:underline" href="mailto:landthatjob.tech@gmail.com">
               Contact Us
             </a>
-            <a className="text-sm hover:underline" href="#">
+            <a className="text-sm hover:underline" href="https://twitter.com/landthatjobtech">
               Follow us on X
             </a>
           </div>
